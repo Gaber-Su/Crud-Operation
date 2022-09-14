@@ -1,0 +1,151 @@
+
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+   }
+   
+   .cssbuttons-io-button svg {
+    margin-right: 6px;
+   }
+   
+   .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+   }
+   
+   .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+   }
+
+
+   
+
+button.deletebutton {
+ width: 150px;
+ height: 50px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ background: red;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+ background: #e62222;
+}
+
+button.deletebutton, button.deletebutton span {
+ transition: 200ms;
+}
+
+button.deletebutton .text {
+ transform: translateX(35px);
+ color: white;
+ font-weight: bold;
+}
+
+button.deletebutton .icon {
+ position: absolute;
+ border-left: 1px solid #c41b1b;
+ transform: translateX(110px);
+ height: 40px;
+ width: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+button.deletebutton svg {
+ width: 15px;
+ fill: #eee;
+}
+
+button.deletebutton:hover {
+ background: #ff3636;
+}
+
+button.deletebutton:hover .text {
+ color: transparent;
+}
+
+button.deletebutton:hover .icon {
+ width: 150px;
+ border-left: none;
+ transform: translateX(0);
+}
+
+button.deletebutton:focus {
+ outline: none;
+}
+
+button.deletebutton:active .icon svg {
+ transform: scale(0.8);
+}
+
+
+#deleteBtn , .btn-success, .btn-danger{
+    transition: scale 0.3s;
+}
+#deleteBtn:hover{
+    scale: 1.1;
+}
+
+/* tr{
+    transition: scale 0.3s;
+}
+tr:hover {
+scale: 1.1;
+} */
+
+td {
+    line-height: 55px;
+}
+
+button.updateBtn {
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+   }
+   
+   button.updateBtn:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+   }
+   
+   button.updateBtn:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+   }
+   
+   button.updateBtn:hover:before {
+    transform: translateX(15em);
+   }
+
+
